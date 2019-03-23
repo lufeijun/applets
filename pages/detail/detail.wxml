@@ -1,0 +1,31 @@
+<view><image src='{{ jiweijiu.image }}' mode="widthFix"></image></view>
+
+<view class="my-container">
+  <view class='title'>{{ jiweijiu.name }}</view>
+  
+  <!-- 酒的故事 -->
+  <view class='item-title'>酒之故事</view>
+  <text class='item-content'>{{ jiweijiu.story }}</text>
+  
+  <!-- 酒的原料 -->
+  <view class='item-title'>酒之原料</view>
+  <text class='item-content'>{{ jiweijiu.material }}</text>
+  
+  <!-- 酒的器具 -->
+  <view class='item-title'>酒之器具</view>
+  <text class='item-content'>{{ jiweijiu.ware }}</text>
+  
+
+  <!-- 酒的制作 -->
+  <view class='item-title'>酒之制作</view>
+  <view class='item-content'>
+    <text class='item-content'>{{ jiweijiu.step }}</text>
+  </view>
+
+  <!-- 酒的特色 -->
+  <view class='item-title'>酒之特色</view>
+  <text class='item-content'>{{ jiweijiu.feature }}</text>
+
+  <view style='margin-bottom:40rpx;'></view>
+
+</view>

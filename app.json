@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/us/us",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "鸡尾酒之约",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/imgs/2019/bar/index.png",
+        "selectedIconPath": "pages/imgs/2019/bar/index-now.png"
+      },
+      {
+        "pagePath": "pages/us/us",
+        "text": "关于我们",
+        "iconPath": "pages/imgs/2019/bar/us.png",
+        "selectedIconPath": "pages/imgs/2019/bar/us-now.png"
+      }
+    ]
+  }
+}

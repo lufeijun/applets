@@ -1,0 +1,7 @@
+<!--pages/us/us.wxml-->
+<view class='image'><image src='/pages/imgs/2019/index/logo.jpg'></image></view>
+
+<view class='title'>ABOUT US / 关于我们</view>
+
+<view class='content'>品味一种极致，未入喉，已醇香四溢，犹未品，已流露不凡。小编是鸡尾酒爱好者，愿借此平台，广交所有爱好者，共同寻找最美味的鸡尾酒，</view>
+<view class='content'>联系方式：18201419968</view>

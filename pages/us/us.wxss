@@ -1,0 +1,15 @@
+.image {
+  width: 100%;
+}
+.image image {
+  width: 100%;
+}
+
+.title {
+  margin: 20rpx auto;
+  padding-left: 20rpx;
+}
+.content {
+  text-indent: 40rpx;
+  padding: 20rpx;
+}

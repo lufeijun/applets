@@ -1,0 +1,28 @@
+<view class='my-container'>
+  <!--  -->
+  <view class="section search">
+    <image class='search-image' src='/pages/imgs/2019/index/search.png'></image>
+    <input bindconfirm="search" placeholder="搜索" confirm-type="search" placeholder-style="color:#2e5e86;" value='{{ searchName }}' />
+  </view>
+
+
+  <swiper class='banner' autoplay="true" circular="true" indicator-dots="true">
+    <swiper-item>
+      <image src="/pages/imgs/2019/index/banner-4.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/pages/imgs/2019/index/banner-5.jpg" class="slide-image"/>
+    </swiper-item>
+    <swiper-item>
+      <image src="/pages/imgs/2019/index/banner-6.jpeg" class="slide-image"/>
+    </swiper-item>
+  </swiper>
+</view>
+
+<view class='jingdian'>经典鸡尾酒</view>
+<view wx:for="{{list}}" wx:key="index" class='jingdian-box' bindtap='toDetail' data-id="{{ item.id }}">
+  <image data-id="{{ item.id }}" src="{{ item.image }}" mode="widthFix"></image>
+  <view data-id="{{ item.id }}" class='name'>{{ item.name }}</view>
+</view>
+
+<view style='height:30rpx;'></view>

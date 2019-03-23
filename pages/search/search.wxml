@@ -1,0 +1,20 @@
+<view class='my-container'>
+  <!--  -->
+  <view class="section search">
+    <image class='search-image' src='/pages/imgs/2019/index/search.png'></image>
+    <input bindconfirm="search" placeholder="搜索" confirm-type="search" placeholder-style="color:#2e5e86;" value='{{ name }}' />
+  </view>
+
+  <view style='height:50rpx;'></view>
+
+  <!-- 查询结果  -->
+  <view class='line'></view>
+  <view wx:for="{{list}}" wx:key="i" bindtap='toDetail' data-id="{{ item.id }}">
+    <view class='result-box' data-id="{{ item.id }}">
+      <image data-id="{{ item.id }}" class='result-image' src="{{ item.image }}"></image>
+      <view data-id="{{ item.id }}" class='result-name'>{{ item.name }}</view>
+      <image data-id="{{ item.id }}" class='go' src='/pages/imgs/2019/index/go.png'></image>
+    </view>
+    <view class='line'></view>
+  </view>
+</view>
